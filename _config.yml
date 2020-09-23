@@ -21,7 +21,7 @@
 title: Filip Bjelonic
 locale: "en-GB"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fbjelonic.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.fbjelonic.com" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/heidelberg.jpg
 logo: /assets/images/tux.png
 masthead_title: "Welcome!"
