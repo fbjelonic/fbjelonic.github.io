@@ -18,19 +18,54 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Website of Filip Bjelonic
-email: filip.bjelonic@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My Awesome Website
+title: Filip Bjelonic
+locale: "en-GB"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.fbjelonic.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  fbjelonic
-instagram_username: filipbje
+url: "https://fbjelonic.com" # the base hostname & protocol for your site, e.g. http://example.com
+teaser: /assets/images/heidelberg.jpg
+logo: /assets/images/tux.png
+masthead_title: "Welcome!"
+include: ["_pages"]
+
+author:
+  name     : "Filip Bjelonic"
+  avatar   : "/assets/images/me.jpg"
+  bio      : "Just another engineer, searching for the ultimate solutions to bugs and problems."
+  location : "Somewhere, Germany"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:filip.bjelonic@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.fbjelonic.com"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fbjelonic"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/filipbje"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+      read_time: false
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

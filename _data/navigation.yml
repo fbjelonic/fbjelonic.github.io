@@ -1,0 +1,14 @@
+main:
+  - title: "Home"
+    url: /
+    description: "Brings you back to the start"
+  - title: "Projects"
+    url: /projects/
+    description: "See recent and past projects"
+  - title: "CV"
+    url: /curriculumvitae/
+    description: "My life in a nutshell"
+  - title: "Places"
+    url: /cities/
+    description: "See my favorite places in the world"
+
