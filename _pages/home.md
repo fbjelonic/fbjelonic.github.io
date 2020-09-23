@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
+title: "Hello there!"
 ---
 
-# Hello there!
 My Home thingy

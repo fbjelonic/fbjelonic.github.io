@@ -1,5 +1,5 @@
 ---
 permalink: /curriculumvitae/
+title: "My CV"
 ---
 
-My CV
