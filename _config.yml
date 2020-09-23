@@ -22,7 +22,7 @@ title: Website of Filip Bjelonic
 email: filip.bjelonic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My Awesome Website
-baseurl: "/home" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.fbjelonic.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fbjelonic
 instagram_username: filipbje
