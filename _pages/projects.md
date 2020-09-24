@@ -10,8 +10,8 @@ driveId3: 1NjskhFkZKcQAsLfuFMo_8K-4lRVDEfQv/preview
 
 ## Self started projects
 
-The following projects are ideas which came up in my mind which I want to solve.
-So I used up some of my free time to see how far I could come. Scroll down to see
+The following projects are ideas which came up randomly in my mind.
+So I used up some of my free time to see how far I could come. Keep going to see
 my results.
 
 ### Autonomous Driller - autonomous Car
