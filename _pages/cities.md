@@ -4,26 +4,20 @@ title: "Favorite places in the world"
 ---
 
 ## Heidelberg, Germany
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/heidelberg.jpg)
-{: .full}
+{% include figure image_path="/assets/images/heidelberg.jpg" alt="this is a placeholder image" caption="Heidelberg historic downtown" %}
 
 ## Lofoten, Norway
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/lofoten.jpg)
-{: .full}
+{% include figure image_path="/assets/images/lofoten.jpg" alt="this is a placeholder image" caption="Lofoten" %}
 
 ## Hong Kong, Hong Kong
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/hongkong.jpg)
-{: .full}
+{% include figure image_path="/assets/images/hongkong.jpg" alt="this is a placeholder image" caption="Hong Kong skyline at night" %}
 
 ## Zürich, Switzerland
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/zuerich2.jpg)
-{: .full}
+{% include figure image_path="/assets/images/zuerich2.jpg" alt="this is a placeholder image" caption="Zürich riverside / lakeside" %}
 
 ## Lisbon, Portugal
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/lisbon.jpg)
-{: .full}
-
+{% include figure image_path="/assets/images/lisbon.jpg" alt="this is a placeholder image" caption="Lisbon rooftops" %}
