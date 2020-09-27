@@ -3,7 +3,7 @@ main:
     url: /
     description: "Brings you back to the start"
   - title: "Projects"
-    url: /projects/
+    url: /projects/autonomous_car/
     description: "See recent and past projects"
   - title: "CV"
     url: /curriculumvitae/
@@ -12,3 +12,22 @@ main:
     url: /cities/
     description: "See my favorite places in the world"
 
+projects:
+  - title: Self started projects
+    children:
+      - title: "Autonomous Driller"
+        url: /projects/autonomous_car/
+      - title: "2WD ROSduino"
+        url: /projects/2wdarduino/
+      - title: "Crazy Turtle"
+        url: /projects/crazy_turtle/
+      - title: "C-nake"
+        url: /projects/cnake/
+  - title: Bachelor Projects
+    children:
+      - title: "Load carrying walking robot"
+        url: /projects/thesis/
+  - title: Master Projects
+    children:
+      - title: "IHMC Atlas Robot"
+        url: /projects/ihmc/
