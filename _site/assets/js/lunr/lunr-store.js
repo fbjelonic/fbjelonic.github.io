@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "C-nake",
-        "excerpt":"Classical Snake game from 1976 Background Story: It was the middle of the second semester in Hong Kong when I thought, it would be nice to learn C++. I had a lot of practice in MATLAB, but that was it. After I did the classical “Hello World” in C++, I...","categories": [],
+        "excerpt":"Classical Snake game from 1976 Background Story It was the middle of the second semester in Hong Kong when I thought, it would be nice to learn C++. I had a lot of practice in MATLAB, but that was it. After I did the classical “Hello World” in C++, I...","categories": [],
         "tags": [],
         "url": "https://fbjelonic.com/projects/cnake/",
         "teaser": null

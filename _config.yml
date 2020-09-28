@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Filip Bjelonic"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Just another engineer, searching for the ultimate solutions to bugs and problems."
+  bio              : "Just another engineer, searching for the ultimate solution to bugs and problems."
   location         : "Somewhere, Germany"
   email            :
   links:
