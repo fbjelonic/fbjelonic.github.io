@@ -4,4 +4,14 @@ permalink: /projects/ihmc/
 excerpt: "Atlas humanoid robot integration into ROS"
 ---
 
-Insert description of atlas robot.
+## Project description
+
+Insert project description here.
+
+## Background story
+
+Insert background story here.
+
+## Video
+
+Insert video here.

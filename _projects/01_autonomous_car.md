@@ -5,4 +5,14 @@ excerpt: "A 3D printed autonomous car project"
 toc: true
 ---
 
-Insert description about autonomous car.
+## Project description
+
+Insert project description here.
+
+## Background story
+
+Insert background story here.
+
+## Video
+
+Insert Video here.
