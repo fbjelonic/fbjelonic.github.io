@@ -5,7 +5,7 @@ excerpt: "A 3D printed autonomous car project"
 toc: true
 ---
 
-## Project description
+## Abstract
 
 Insert project description here.
 

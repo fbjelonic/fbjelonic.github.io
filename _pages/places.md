@@ -1,5 +1,5 @@
 ---
-permalink: /cities/
+permalink: /places/
 title: "Favorite places in the world"
 toc: true
 ---

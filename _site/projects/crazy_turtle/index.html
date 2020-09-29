@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-09-29T12:33:56+02:00">
+  <meta property="article:published_time" content="2020-09-29T13:28:38+02:00">
 
 
 
@@ -159,7 +159,7 @@
               <a href="/curriculumvitae/" title="My life in a nutshell">CV</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/cities/" title="See my favorite places in the world">Places</a>
+              <a href="/places/" title="See my favorite places in the world">Places</a>
             </li>
 </ul>
         
@@ -259,7 +259,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Crazy Turtle">
     <meta itemprop="description" content="Controller for turtle simulation from ROS turtlesim">
-    <meta itemprop="datePublished" content="2020-09-29T12:33:56+02:00">
+    <meta itemprop="datePublished" content="2020-09-29T13:28:38+02:00">
     
 
     <div class="page__inner-wrap">
@@ -280,23 +280,80 @@
               <header><h4 class="nav__title">
 <i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#project-description">Project description</a></li>
+  <li><a href="#abstract">Abstract</a></li>
   <li><a href="#background-story">Background story</a></li>
+  <li><a href="#feedback-control-with-wall-avoidance">Feedback control with wall avoidance</a></li>
+  <li><a href="#ros-communication">ROS communication</a></li>
   <li><a href="#video">Video</a></li>
 </ul>
 
             </nav>
           </aside>
         
-        <h2 id="project-description">Project description</h2>
+        <h2 id="abstract">Abstract</h2>
 
 <p>Insert description here</p>
+
+<ul>
+  <li>feedback control in 2 ways</li>
+  <li>ros action and service topic</li>
+  <li>interface gets the service call</li>
+  <li>after successfully receiving goal, it sends an action message to the controller</li>
+  <li>goal can be changed thrugh service call when ever you want (non blocking)</li>
+</ul>
 
 <h2 id="background-story">Background story</h2>
 
 <p>I started learning <a href="https://www.ros.org/">ROS</a> back in July 2019. The first tutorials are pretty basic. You start
 installing ROS and the first tutorial tasks are to simply download and run pre-made ROS packages. One
 of the first ones is the <a href="http://wiki.ros.org/turtlesim">turtesim</a> simulator. Pretty basic and quite fun. It is a turtle, moving around in a colored plane. The normal task is to start two ROS nodes, the simulator and the <a href="http://wiki.ros.org/teleop_twist_keyboard">teleop-twist-keyboard</a>. Afterwards, you should be able to steer the little turtle around with your arrow keys. Then, the fun began. <img class="emoji" title=":smirk:" alt=":smirk:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png" height="20" width="20"></p>
+
+<h2 id="feedback-control-with-wall-avoidance">Feedback control with wall avoidance</h2>
+
+<ul>
+  <li>explain feedback control and point to image in rqt graph</li>
+  <li>explain 2 different approaches</li>
+  <li>explain wall avoidance with penalty function
+    <ul>
+      <li>explain why I used min{cost, 20} (simulation gets instable)</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="embed-container">
+  <iframe width="640" height="400" src="https://drive.google.com/file/d/1cyWFjvttOCzMIfpwzMksLqbJhj8I6O2v/preview" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+<!--640-->
+<!--480-->
+
+<figure class="">
+  <img src="/assets/images/wallbump.png" alt="this is a placeholder image">
+  
+    <figcaption>
+      Wall avoidance cost function. 3D plot created with MATLAB
+
+    </figcaption>
+  
+</figure>
+
+<h2 id="ros-communication">ROS communication</h2>
+
+<ul>
+  <li>explain 2 added ros nodes</li>
+  <li>explain ros action msg and ros service msg and differences</li>
+  <li>action is non blocking, can be changed every time</li>
+</ul>
+
+<figure class="">
+  <img src="/assets/images/rqt_graph_crazy_turtle.jpg" alt="this is a placeholder image">
+  
+    <figcaption>
+      rqt-Graph of ROS nodes and topics communication
+
+    </figcaption>
+  
+</figure>
 
 <h2 id="video">Video</h2>
 
@@ -317,7 +374,7 @@ of the first ones is the <a href="http://wiki.ros.org/turtlesim">turtesim</a> si
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-29T12:33:56+02:00">September 29, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-29T13:28:38+02:00">September 29, 2020</time></p>
 
 
       </footer>

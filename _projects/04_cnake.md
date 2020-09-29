@@ -6,7 +6,7 @@ driveId3: 1NjskhFkZKcQAsLfuFMo_8K-4lRVDEfQv/preview
 toc: true
 ---
 
-## Project description
+## Abstract
 
 Classical Snake game from 1976.
 

@@ -9,7 +9,7 @@ main:
     url: /curriculumvitae/
     description: "My life in a nutshell"
   - title: "Places"
-    url: /cities/
+    url: /places/
     description: "See my favorite places in the world"
 
 projects:

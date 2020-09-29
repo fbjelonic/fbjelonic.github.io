@@ -4,7 +4,7 @@ permalink: /projects/thesis/
 excerpt: "Load carrying walking robot simulation and analysis"
 ---
 
-## Project description
+## Abstract
 
 Insert project description here.
 
