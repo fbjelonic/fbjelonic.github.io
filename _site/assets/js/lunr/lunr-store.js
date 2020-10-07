@@ -1,12 +1,12 @@
 var store = [{
         "title": "Autonomous Driller",
-        "excerpt":"Abstract   Insert project description here.   Background story   Insert background story here.   Video   Insert Video here.  ","categories": [],
+        "excerpt":"Abstract Autonomous car exploration, mapping and delivery (of chocolate) Background story wanted to make rosduino autonomous adding a camera, lidar or even depth camera would be an overkill (in terms of cost) ROSduino was not strong enough (fast) as kid, always dreamed of making my own RC Car because they...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/autonomous_car/",
         "teaser": null
       },{
         "title": "2WD ROSduino",
-        "excerpt":"Abstract   Insert project description   Background story   Insert background story   Video              ","categories": [],
+        "excerpt":"Abstract In this project, I used a couple of standard electronic parts to build an arduino car. It is either remote controlled by a xbox controller or autonomous with a sonic sensor. The challenge here was to figure out the electric circuit, a feasable ROS communication structure and implementing it...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/2wdarduino/",
         "teaser": null
