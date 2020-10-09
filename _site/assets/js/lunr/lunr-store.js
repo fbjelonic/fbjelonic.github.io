@@ -1,6 +1,6 @@
 var store = [{
         "title": "Autonomous Driller",
-        "excerpt":"Abstract Autonomous car exploration, mapping and delivery (of chocolate) Background story wanted to make rosduino autonomous adding a camera, lidar or even depth camera would be an overkill (in terms of cost) ROSduino was not strong enough (fast) as kid, always dreamed of making my own RC Car because they...","categories": [],
+        "excerpt":"Abstract In this project, I build a 3D printed, autonomous car for exploration and delivery. The main idea is to let the car drive around by itself and find humans to serve chocolate on demand. For the mapping, exploration and human detection, I use a Depth Camera from Intel. You...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/autonomous_car/",
         "teaser": null

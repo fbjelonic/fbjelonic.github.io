@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-10-07T16:29:48+02:00">
+  <meta property="article:published_time" content="2020-10-09T15:14:24+02:00">
 
 
 
@@ -254,7 +254,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Autonomous Driller">
     <meta itemprop="description" content="A 3D printed autonomous car project">
-    <meta itemprop="datePublished" content="2020-10-07T16:29:48+02:00">
+    <meta itemprop="datePublished" content="2020-10-09T15:14:24+02:00">
     
 
     <div class="page__inner-wrap">
@@ -277,7 +277,7 @@
   <li><a href="#abstract">Abstract</a></li>
   <li><a href="#background-story">Background story</a></li>
   <li><a href="#what-has-the-car-to-do-with-a-driller">What has the car to do with a “driller”?</a></li>
-  <li><a href="#3d-printer-car-chassis">3D printer car chassis</a></li>
+  <li><a href="#from-aluminium-sheets-to-3d-printer">From aluminium sheets to 3d printer</a></li>
   <li><a href="#ros-communication">ROS Communication</a></li>
   <li><a href="#video">Video</a></li>
 </ul>
@@ -287,39 +287,69 @@
         
         <h2 id="abstract">Abstract</h2>
 
-<ul>
-  <li>Autonomous car</li>
-  <li>exploration, mapping and delivery (of chocolate)</li>
-</ul>
+<p>In this project, I build a 3D printed, autonomous car for exploration and delivery. The main idea is to let the car drive around by itself and find humans to serve chocolate on demand. For the mapping, exploration and human detection, I use a <a href="https://www.intelrealsense.com/depth-camera-d455/">Depth Camera</a> from Intel. You are curious about <em>Why the hell is it called a driller?</em>. You can find it out <a href="#what-has-the-car-to-do-with-a-driller">here</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/auto_driller_full.jpg" alt="this is a placeholder image" />
+  
+    <figcaption>
+      Current progress of the car
+
+    </figcaption>
+  
+</figure>
 
 <h2 id="background-story">Background story</h2>
 
+<p>After I finished my main goal for the <a href="https://www.fbjelonic.com/projects/2wdarduino/">2WD ROSduion</a>, I wanted to make an autonomous upgrade. So I went on google and looked for prices of:</p>
+
 <ul>
-  <li>wanted to make rosduino autonomous</li>
-  <li>adding a camera, lidar or even depth camera would be an overkill (in terms of cost)</li>
-  <li>ROSduino was not strong enough (fast)</li>
-  <li>as kid, always dreamed of making my own RC Car because they were usually too expensive.</li>
-  <li>alltogether made me want to start this project</li>
+  <li>Raspberry Pi Camera Module ~ 50 US$</li>
+  <li>RP LIDAR ~ 120 US$</li>
+  <li>Depth Camera ~ 200-300 US$</li>
 </ul>
+
+<p>If you compare the prices to the base set for the 2WD ROSduino (~40 US$), this would be clearly an overkill for me. So what now?</p>
+
+<p>Together with the coincidence with my dad, showing me his <a href="#what-has-the-car-to-do-with-a-driller">broken drilling machine</a>, I decided to start a new project, the <strong>autonomous driller</strong>.</p>
 
 <h2 id="what-has-the-car-to-do-with-a-driller">What has the car to do with a “driller”?</h2>
 
-<ul>
-  <li>
-    <p>dad came to me and asked me: Do you need this old driller? Its broken and I do not need it anymore.</p>
-  </li>
-  <li>
-    <p>show picture, how the machine looked like</p>
-  </li>
-  <li>
-    <p>Searched for a capable device for PWM to control it with my arduino and tested it: it worked (show video of the drill engine at work)</p>
-  </li>
-  <li>
-    <p>show picture of the drill engine on the car</p>
-  </li>
-</ul>
+<p>At the time, when I was thinking about making <a href="https://www.fbjelonic.com/projects/2wdarduino/">2WD ROSduion</a> an autonomous car, my dad once came to me. He had an old drilling machine in his hands and asked me:</p>
 
-<h2 id="3d-printer-car-chassis">3D printer car chassis</h2>
+<blockquote>
+  <p><em>Do you need parts from this? It is broken and I do not need it anymore</em>.</p>
+</blockquote>
+
+<p>It was an <em>‘Eureka!’</em> moment for me. I decided to start something bigger: <strong>A car with a drilling machine engine.</strong></p>
+
+<p>I did not even know how it looked like from the inside. So I opened the case and took a glimps:</p>
+
+<figure class="">
+  <img src="/assets/images/drill_engine_opened.jpg" alt="this is a placeholder image" />
+  
+    <figcaption>
+      Drilling machine from inside
+
+    </figcaption>
+  
+</figure>
+
+<p>From an engineering point of view, it was a beautiful moment. Opening the case and seeing the planetary gear with an incredible translation and the very small electric engine. Sooner, I would find out, that this little engine had about</p>
+
+<p>750 watt [W] = 1 horsepower [HP]</p>
+
+<p>which is about <strong>30 times more than the ROSduino engines</strong> (max. 25 W)!
+Before I thought about the car itself, I had to figure out how to control the old engine. I did not even know which parts of the drilling machien were broken. I bought a PWM (pulse width modulation) MOSFET engine controller to test the capabilities. And it worked! Which meant, I can go on and figure out how to build the body of the car. See me struggling to hold the engine while testing:</p>
+
+<div class="embed-container">
+  <iframe width="640" height="400" src="https://drive.google.com/file/d/1j1vHs6Mp_OBxqUeil8ZxK2VZTNFb5jZu/preview" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+<!--640-->
+<!--480-->
+
+<h2 id="from-aluminium-sheets-to-3d-printer">From aluminium sheets to 3d printer</h2>
 
 <ul>
   <li>
@@ -369,7 +399,7 @@
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-07T16:29:48+02:00">October 7, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-09T15:14:24+02:00">October 9, 2020</time></p>
 
 
       </footer>
