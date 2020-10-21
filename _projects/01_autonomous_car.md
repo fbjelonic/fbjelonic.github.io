@@ -18,11 +18,11 @@ In this project, I build a 3D printed, autonomous car for exploration and delive
 
 After I finished my main goal for the [2WD ROSduion](https://www.fbjelonic.com/projects/2wdarduino/), I wanted to make an autonomous upgrade. So I went on google and looked for prices of:
 
-- Raspberry Pi Camera Module ~ 50 US$
-- RP LIDAR ~ 120 US$
-- Depth Camera ~ 200-300 US$
+- Raspberry Pi Camera Module ~ US$ 50
+- RP LIDAR ~ US$ 120
+- Depth Camera ~ US$ 240
 
-If you compare the prices to the base set for the 2WD ROSduino (~40 US$), this would be clearly an overkill for me. So what now?
+If you compare the prices to the base set for the 2WD ROSduino (~US$ 40), this would be clearly an overkill for me. So what now?
 
 Together with the coincidence with my dad, showing me his [broken drilling machine](#what-has-the-car-to-do-with-a-driller), I decided to start a new project, the **autonomous driller**.
 
@@ -57,7 +57,7 @@ Afterwards, I made a rough sketch, went to the company of my dad and started to 
 
 The result looked quite ok'isch. Nothing beautiful, but it worked. I knew, I had to weld some thicker parts together to make the chassis more durable. Since I did not have a welding machine, I knew it was going to get tough. So I decided to try a 3d printer approach.
 
-I knew, I do not need a high-end CAD (Computer aided design) program to model my car. It needs to be quick and easy to use. I found an online CAD browser program: [Tinkercad](https://www.tinkercad.com/). It is very intuitive, free and download free. I started by modeling the parts I knew was going to be on the car, because I wanted to get a feeling about the general size of the car. The following parts needed to be modeled:
+I knew, I do not need a high-end CAD (Computer aided design) program to model my car. It needs to be quick and easy to use. I found an online CAD browser program: [Tinkercad](https://www.tinkercad.com/). It is very intuitive, free and no download required. I started by modeling the parts that were going to be on the car, because I wanted to get a feeling about the general size of the car. The following were modeled:
 
 * electric engine (from drilling machine)
 * lithium-ion battery (from drilling machine)
