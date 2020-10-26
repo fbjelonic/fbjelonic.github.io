@@ -12,13 +12,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Crazy Turtle",
-        "excerpt":"Abstract Insert description here feedback control in 2 ways ros action and service topic interface gets the service call after successfully receiving goal, it sends an action message to the controller goal can be changed thrugh service call when ever you want (non blocking) Background story I started learning ROS...","categories": [],
+        "excerpt":"Abstract In this project I developed two different feedback controller for the ROS turtle simulation with a wall avoidance algorithm. The implementation of mine uses an action server, so that the user can set and change goals whenever it is needed (non-blocking). Because setting an action goal in terminal is...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/crazy_turtle/",
         "teaser": null
       },{
         "title": "C-nake",
-        "excerpt":"Abstract Classical Snake game from 1976. Background story It was the middle of the second semester in Hong Kong (February 2019) when I thought, it would be nice to learn C++. I had a lot of practice in MATLAB, but that was it. After I did the classical Hello World...","categories": [],
+        "excerpt":"Abstract Classical Snake game from 1976. C-nake Background story It was the middle of the second semester in Hong Kong (February 2019) when I thought, it would be nice to learn C++. I had a lot of practice in MATLAB, but that was it. After I did the classical Hello...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/cnake/",
         "teaser": null

@@ -34,7 +34,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-10-23T18:05:03+02:00">
+  <meta property="article:published_time" content="2020-10-26T19:44:34+01:00">
 
 
 
@@ -259,7 +259,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Crazy Turtle">
     <meta itemprop="description" content="Controller for turtle simulation from ROS turtlesim">
-    <meta itemprop="datePublished" content="2020-10-23T18:05:03+02:00">
+    <meta itemprop="datePublished" content="2020-10-26T19:44:34+01:00">
     
 
     <div class="page__inner-wrap">
@@ -292,15 +292,19 @@
         
         <h2 id="abstract">Abstract</h2>
 
-<p>Insert description here</p>
+<p>In this project I developed two different feedback controller for the ROS turtle simulation with a wall avoidance algorithm. The implementation of mine uses an action server, so that the user can set and change goals whenever it is needed (non-blocking). Because setting an action goal in terminal is not as convenient as calling a ROS service, I made the action communication completely by the software. This means, the user only has to call the service server, which handles the rest.</p>
 
-<ul>
-  <li>feedback control in 2 ways</li>
-  <li>ros action and service topic</li>
-  <li>interface gets the service call</li>
-  <li>after successfully receiving goal, it sends an action message to the controller</li>
-  <li>goal can be changed thrugh service call when ever you want (non blocking)</li>
-</ul>
+<p>Afterwards, the service node sends the desired turtle position to the action node. The controller starts steering the turtle towards the goal while sending information about the turtle state and distance to the goal. Since it is an action message, it is non-blocking and the user might change the goal whenever desired.</p>
+
+<figure class="">
+  <img src="/assets/images/crazy_turtle_teaser.png" alt="this is a placeholder image">
+  
+    <figcaption>
+      Crazy turtle in action
+
+    </figcaption>
+  
+</figure>
 
 <h2 id="background-story">Background story</h2>
 
@@ -374,7 +378,7 @@ of the first ones is the <a href="http://wiki.ros.org/turtlesim">turtesim</a> si
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-23T18:05:03+02:00">October 23, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-26T19:44:34+01:00">October 26, 2020</time></p>
 
 
       </footer>

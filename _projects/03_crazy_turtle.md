@@ -9,13 +9,11 @@ toc: true
 
 ## Abstract
 
-Insert description here
+In this project I developed two different feedback controller for the ROS turtle simulation with a wall avoidance algorithm. The implementation of mine uses an action server, so that the user can set and change goals whenever it is needed (non-blocking). Because setting an action goal in terminal is not as convenient as calling a ROS service, I made the action communication completely by the software. This means, the user only has to call the service server, which handles the rest. 
 
-- feedback control in 2 ways
-- ros action and service topic
-- interface gets the service call
-- after successfully receiving goal, it sends an action message to the controller
-- goal can be changed thrugh service call when ever you want (non blocking)
+Afterwards, the service node sends the desired turtle position to the action node. The controller starts steering the turtle towards the goal while sending information about the turtle state and distance to the goal. Since it is an action message, it is non-blocking and the user might change the goal whenever desired.
+
+{% include figure image_path="/assets/images/crazy_turtle_teaser.png" alt="this is a placeholder image" caption="Crazy turtle in action" %}
 
 ## Background story
 
