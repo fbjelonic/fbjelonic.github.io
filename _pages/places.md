@@ -33,6 +33,8 @@ A couple days in June 2014
 
 ## In short words
 
+The special climate, together with an infinite day cycle during the summer months and a lot of untouched and calm nature makes this place great for a holiday trip. It can be organized in a relaxing or an adventurous style.
+
 ## Overview
 
 ---
@@ -47,7 +49,13 @@ September 2018 until June 2019
 
 ## In short words
 
+Breathtaking. Incredible. Versatile. That's Hong Kong in short words.
+
 ## Overview
+
+The first time you enter Hong Kong Island, you step out of the MTR and are in the middle of a metropolis. You walk 10 minutes soth and are in the middle of a rain forest. Restaurants with an average bill between $US 3 - 600 are in the same building within 50 floors of distance. The majority of times, it will be 30°C with high humidity, night and day. Which basically means, you won't freez.
+
+Whatever type of food you want to eat, you will find at least one restaurant for it. With the Mass Transit Railway (MTR, subway) everything is in close range. If there is no public transportation, you can still take a taxi, which is about $US 6 for a 20 minutes ride (cheap!).
 
 ---
 

@@ -28,6 +28,8 @@ You can have a look at the finals in [YouTube](https://youtu.be/cxs0oeeQU-w). Th
 
 {% include figure image_path="/assets/images/arduino_assembly.png" alt="this is a placeholder image" caption="Arduino car assembly parts" %}
 
+* show source and some parts and explain in short
+
 ## Controller to Arduino communication
 
 - explain communication between controller - laptop, laptop - raspberry pi, raspberry pi - Arduino

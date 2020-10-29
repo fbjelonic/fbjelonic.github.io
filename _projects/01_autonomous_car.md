@@ -86,9 +86,23 @@ and the full body with a raspberry pi for size comparison
 
 More about this in the futur. Stay tuned :smirk:
 
+* communication structure of rosduino (show rqt graph)
+
+* explain ssh and ros wifi communication (master/ slave)
+
+* what is the laptop, raspberry pi and arduino for
+
 ## SLAM and path planning
 
 More about this in the futur. Stay tuned :smirk:
+
+* include footage and links to intel realsense D455
+
+* show examples of open source tracking
+
+* explain the concept of surface normals and elevation map
+
+* RRT* path planning
 
 ## Video
 
