@@ -5,6 +5,8 @@ excerpt: "A 3D printed autonomous car project"
 driveId1: 1j1vHs6Mp_OBxqUeil8ZxK2VZTNFb5jZu/preview
 driveId2: 1iiVN73AF5Tjy1a1f8YKhz4dSqY4_Psmt/preview
 driveId3: 13KDxD1tmKUxsIn-v9VZOeJ96L9B0Ffgm/preview
+driveId4: 1_PZnY7tY589EGvCO0uC7JhWdnHmFCpEC/preview
+driveId5: 17yrCHz2bCHUm-Grj5oz4-ipRt1fYINq9/preview
 toc: true
 ---
 
@@ -12,7 +14,7 @@ toc: true
 
 In this project, I build a 3D printed, autonomous car for exploration and delivery. The main idea is to let the car drive around by itself and find humans to serve chocolate on demand. For the mapping, exploration and human detection, I use a [Depth Camera](https://www.intelrealsense.com/depth-camera-d455/) from Intel. You are curious about *Why the hell is it called a driller?*. You can find it out [here](#what-has-the-car-to-do-with-a-driller).
 
-{% include figure image_path="/assets/images/auto_driller_full.jpg" alt="this is a placeholder image" caption="Current progress of the car" %}
+{% include figure image_path="/assets/images/auto_driller_full_teaser.jpg" alt="this is a placeholder image" caption="Current progress of the car" %}
 
 ## Background story
 
@@ -92,18 +94,40 @@ More about this in the futur. Stay tuned :smirk:
 
 * what is the laptop, raspberry pi and arduino for
 
-## SLAM and path planning
+## SLAM
 
 More about this in the futur. Stay tuned :smirk:
 
-* include footage and links to intel realsense D455
+SLAM (simultaneous mapping and localization) of my room with the [Intel&reg; RealSense&trade; D455](https://www.intelrealsense.com/depth-camera-d455/?_ga=2.86444184.1026476087.1608040152-307530119.1608040152) depth-camera. The pointcloud is visualized in real-time in rviz for ROS.
 
-* show examples of open source tracking
+{% include googleDrivePlayer.html id=page.driveId5 %}
+
+## Path planning
+
+More about this in the futur. Stay tuned :smirk:
 
 * explain the concept of surface normals and elevation map
 
 * RRT* path planning
 
+## Outtakes and Failures
+
+In this topic I am going to talk about things that did not work and lessons I have learned.
+
+### Never attach an electrical engine directly to the battery
+
+I attached the electrical engine bith an enginebox to the body of the 3d printed car as well as a battery holder. 
+
+{% include figure image_path="/assets/images/engine_to_chassis.jpg" alt="this is a placeholder image" caption="Enginebox and battery holder on the driller-car" %}
+
+Nevertheless, I was too lazy to set up my controller to test whether or not my construction works. On the other hand, I was too curious to find out. So I decided to simply connect the electrical engine to the battery and leave out any type of control (PT1 time delay or similar). As you might imagine, this is not a good idea to do with a 750 Watt engine. Sadly, I did not record it and luckily, only a small and easy replacable part broke.
+
+{% include figure image_path="/assets/images/car_wheel_destroyed.jpg" alt="this is a placeholder image" caption="The car after 0.01 seconds of engine torque." %}
+
+{% include figure image_path="/assets/images/wheel_destroyed.jpg" alt="this is a placeholder image" caption="The broken 3d printed part." %}
+
 ## Video
 
-Insert Video here.
+First remotely controlled test ride.
+
+{% include googleDrivePlayer.html id=page.driveId4 %}

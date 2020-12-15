@@ -53,7 +53,7 @@ Breathtaking. Incredible. Versatile. That's Hong Kong in short words.
 
 ## Overview
 
-The first time you enter Hong Kong Island, you step out of the MTR and are in the middle of a metropolis. You walk 10 minutes soth and are in the middle of a rain forest. Restaurants with an average bill between $US 3 - 600 are in the same building within 50 floors of distance. The majority of times, it will be 30°C with high humidity, night and day. Which basically means, you won't freez.
+The first time you enter Hong Kong Island, you step out of the MTR and are in the middle of a metropolis. You walk 10 minutes south and are in the middle of a rain forest. Restaurants with an average bill between $US 3 - 600 are in the same building within 50 floors of distance. The majority of times, it will be 30°C with high humidity, night and day. Which basically means, you won't freez.
 
 Whatever type of food you want to eat, you will find at least one restaurant for it. With the Mass Transit Railway (MTR, subway) everything is in close range. If there is no public transportation, you can still take a taxi, which is about $US 6 for a 20 minutes ride (cheap!).
 
@@ -69,6 +69,8 @@ Several weekend trips
 
 ## In short words
 
+Beautiful location at the züri lake close to the European Alps, with a great sense for fancy details.
+
 ## Overview
 
 ---
@@ -83,6 +85,9 @@ Several holidays, usually in spring and summer
 
 ## In short words
 
+The one place, where you can lose track of the real world and relax
+both mentally and physically.
+
 ## Overview
 
 ---
@@ -96,5 +101,7 @@ Several holidays, usually in spring and summer
 10 days of surfing holidays in summer 2016
 
 ## In short words
+
+A thriving nightlife with a beautiful city and great surrounding beaches.
 
 ## Overview
