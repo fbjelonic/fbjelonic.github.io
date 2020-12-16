@@ -2,7 +2,7 @@
 title: "2WD ROSduino"
 permalink: /projects/2wdarduino/
 excerpt: "Diff drive arduino car with remote control thrugh xbox controller"
-driveId: 14wZwPdzL3B1WAysCzQ7stzg9jj2E2J8t/preview
+classes: wide
 toc: true
 ---
 ## Abstract
@@ -36,4 +36,4 @@ You can have a look at the finals in [YouTube](https://youtu.be/cxs0oeeQU-w). Th
 
 ## Video
 
-{% include googleDrivePlayer.html id=page.driveId %}
+{% include video id="14wZwPdzL3B1WAysCzQ7stzg9jj2E2J8t" provider="google-drive" %}

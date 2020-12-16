@@ -2,8 +2,7 @@
 title: "Crazy Turtle"
 permalink: /projects/crazy_turtle/
 excerpt: "Controller for turtle simulation from ROS turtlesim"
-driveId: 1cyWFjvttOCzMIfpwzMksLqbJhj8I6O2v/preview
-driveId2: 1Qhk23Z0r8yTBbZDFcm9wc3Ma3nm2_7An/preview
+classes: wide
 toc: true
 ---
 
@@ -28,7 +27,7 @@ of the first ones is the [turtesim](http://wiki.ros.org/turtlesim) simulator. Pr
 - explain wall avoidance with penalty function
 	- explain why I used min{cost, 20} (simulation gets instable)
 
-{% include googleDrivePlayer.html id=page.driveId %}
+{% include video id="1cyWFjvttOCzMIfpwzMksLqbJhj8I6O2v" provider="google-drive" %}
 
 {% include figure image_path="/assets/images/wallbump.png" alt="this is a placeholder image" caption="Wall avoidance cost function. 3D plot created with MATLAB" %}
 
@@ -44,4 +43,4 @@ of the first ones is the [turtesim](http://wiki.ros.org/turtlesim) simulator. Pr
 
 ## Video
 
-{% include googleDrivePlayer.html id=page.driveId2 %}
+{% include video id="1Qhk23Z0r8yTBbZDFcm9wc3Ma3nm2_7An" provider="google-drive" %}

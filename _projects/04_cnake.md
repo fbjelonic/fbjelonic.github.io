@@ -2,7 +2,7 @@
 title: "C-nake"
 permalink: /projects/cnake/
 excerpt: "Snake game written in c++ in command prompt"
-driveId3: 1NjskhFkZKcQAsLfuFMo_8K-4lRVDEfQv/preview
+classes: wide
 toc: true
 ---
 
@@ -17,5 +17,4 @@ Classical Snake game from 1976.
 
 ## Video
 
-{% include googleDrivePlayer.html id=page.driveId3 %}
-
+{% include video id="1NjskhFkZKcQAsLfuFMo_8K-4lRVDEfQv" provider="google-drive" %}

@@ -2,12 +2,8 @@
 title: "Autonomous Driller"
 permalink: /projects/autonomous_car/
 excerpt: "A 3D printed autonomous car project"
-driveId1: 1j1vHs6Mp_OBxqUeil8ZxK2VZTNFb5jZu/preview
-driveId2: 1iiVN73AF5Tjy1a1f8YKhz4dSqY4_Psmt/preview
-driveId3: 13KDxD1tmKUxsIn-v9VZOeJ96L9B0Ffgm/preview
-driveId4: 1_PZnY7tY589EGvCO0uC7JhWdnHmFCpEC/preview
-driveId5: 17yrCHz2bCHUm-Grj5oz4-ipRt1fYINq9/preview
 toc: true
+classes: wide
 ---
 
 ## Abstract
@@ -47,7 +43,7 @@ From an engineering point of view, it was a beautiful moment. Opening the case a
 which is about **30 times more than the ROSduino engines** (which have max. 25 W)!
 Before I thought about the car itself, I had to figure out how to control the old engine. I did not even know which parts of the drilling machien were broken. I bought a PWM (pulse width modulation) MOSFET engine controller to test the capabilities. And it worked! Which meant, I can go on and figure out how to build the body of the car. See me struggling to hold the engine while testing:
 
-{% include googleDrivePlayer.html id=page.driveId1 %}
+{% include video id="1j1vHs6Mp_OBxqUeil8ZxK2VZTNFb5jZu" provider="google-drive" %}
 
 ## From aluminium sheets to 3d printer
 
@@ -55,7 +51,7 @@ Now, that I knew the engine and the controller work together, I could start with
 
 Afterwards, I made a rough sketch, went to the company of my dad and started to build a prototype from aluminium sheets. I mainly searched for waste, just to get a feeling of how much work it is and what the outcome would look like. Here is my quarter Car:
 
-{% include googleDrivePlayer.html id=page.driveId2 %}
+{% include video id="1iiVN73AF5Tjy1a1f8YKhz4dSqY4_Psmt" provider="google-drive" %}
 
 The result looked quite ok'isch. Nothing beautiful, but it worked. I knew, I had to weld some thicker parts together to make the chassis more durable. Since I did not have a welding machine, I knew it was going to get tough. So I decided to try a 3d printer approach.
 
@@ -78,7 +74,7 @@ I used his chassis of the car and disgned the full drivetrain, gears and axles b
 
 Following the first test with the electric engine
 
-{% include googleDrivePlayer.html id=page.driveId3 %}
+{% include video id="13KDxD1tmKUxsIn-v9VZOeJ96L9B0Ffgm" provider="google-drive" %}
 
 and the full body with a raspberry pi for size comparison
 
@@ -100,7 +96,9 @@ More about this in the futur. Stay tuned :smirk:
 
 SLAM (simultaneous mapping and localization) of my room with the [Intel&reg; RealSense&trade; D455](https://www.intelrealsense.com/depth-camera-d455/?_ga=2.86444184.1026476087.1608040152-307530119.1608040152) depth-camera. The pointcloud is visualized in real-time in rviz for ROS.
 
-{% include googleDrivePlayer.html id=page.driveId5 %}
+{% include video id="17yrCHz2bCHUm-Grj5oz4-ipRt1fYINq9" provider="google-drive" %}
+
+The blue lines refer to the path the camera took to map the room. You can see, I basically stood up and rotated the camera for mapping as you can see in the video above.
 
 ## Path planning
 
@@ -112,17 +110,17 @@ More about this in the futur. Stay tuned :smirk:
 
 ## Outtakes and Failures
 
-In this topic I am going to talk about things that did not work and lessons I have learned.
+On this topic I am going to talk about things that did not work and lessons I have learned.
 
 ### Never attach an electrical engine directly to the battery
 
-I attached the electrical engine bith an enginebox to the body of the 3d printed car as well as a battery holder. 
+I attached the electrical engine with an enginebox to the body of the 3d printed car as well as a battery holder. 
 
 {% include figure image_path="/assets/images/engine_to_chassis.jpg" alt="this is a placeholder image" caption="Enginebox and battery holder on the driller-car" %}
 
 Nevertheless, I was too lazy to set up my controller to test whether or not my construction works. On the other hand, I was too curious to find out. So I decided to simply connect the electrical engine to the battery and leave out any type of control (PT1 time delay or similar). As you might imagine, this is not a good idea to do with a 750 Watt engine. Sadly, I did not record it and luckily, only a small and easy replacable part broke.
 
-{% include figure image_path="/assets/images/car_wheel_destroyed.jpg" alt="this is a placeholder image" caption="The car after 0.01 seconds of engine torque." %}
+{% include figure image_path="/assets/images/car_wheel_destroyed.jpg" alt="this is a placeholder image" caption="The car after 0.01 seconds of maximum engine torque." %}
 
 {% include figure image_path="/assets/images/wheel_destroyed.jpg" alt="this is a placeholder image" caption="The broken 3d printed part." %}
 
@@ -130,4 +128,5 @@ Nevertheless, I was too lazy to set up my controller to test whether or not my c
 
 First remotely controlled test ride.
 
-{% include googleDrivePlayer.html id=page.driveId4 %}
+{% include video id="1_PZnY7tY589EGvCO0uC7JhWdnHmFCpEC" provider="google-drive" %}
+

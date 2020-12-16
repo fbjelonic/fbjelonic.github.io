@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Analysis and Simulation of Walking Strategies for Load-Carrying Walking Robots",
-        "excerpt":"Abstract   Insert project description here.   Video   Insert videos here.  ","categories": [],
+        "excerpt":"Abstract This paper focuses on load-carrying walking robots, which have to overcome everyday-obstacles like walking on even terrain or climbing upstairs. It will be created various walking strategies and parameters which are important for the evaluation. In addition, these parameters will be tested and evaluated with a special walking robotmodel....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/thesis/",
         "teaser": null
