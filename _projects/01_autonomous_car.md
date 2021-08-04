@@ -2,15 +2,15 @@
 title: "Autonomous Driller"
 permalink: /projects/autonomous_car/
 excerpt: "A 3D printed autonomous car project"
-toc: true
 classes: wide
+toc: true
 ---
 
 ## Abstract
 
 In this project, I build a 3D printed, autonomous car for exploration and delivery. The main idea is to let the car drive around by itself and find humans to serve chocolate on demand. For the mapping, exploration and human detection, I use a [Depth Camera](https://www.intelrealsense.com/depth-camera-d455/) from Intel. You are curious about *Why the hell is it called a driller?*. You can find it out [here](#what-has-the-car-to-do-with-a-driller).
 
-{% include figure image_path="/assets/images/auto_driller_full_teaser.jpg" alt="this is a placeholder image" caption="Current progress of the car" %}
+{% include figure image_path="/assets/images/driller_new_teaser.png" alt="this is a placeholder image" caption="Current progress of the car" %}
 
 ## Background story
 
