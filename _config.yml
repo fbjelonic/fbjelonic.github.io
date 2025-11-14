@@ -17,7 +17,7 @@ url                      : https://filipbjelonic.com # The base hostname & proto
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fbjelonic/fbjelonic.github.io"
-logo                     : "tux.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png
+logo                     : "tux.png" # path of logo image to display in the masthead
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -30,7 +30,7 @@ author:
   bio              : "Just another engineer, searching for the ultimate solution to bugs and problems."
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich"
-  uri              : # URL
+  uri              : "https://rsl.ethz.ch/" # URL
   email            : "none@example.org" 
 
   # Academic websites
@@ -39,7 +39,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=DzqjM4wAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-4890-3132"
+  orcid            : # "https://orcid.org/0000-0002-4890-3132"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -64,7 +64,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : filip-bjelonic-0b39b723a # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -123,7 +123,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -257,7 +257,7 @@ defaults:
       type: robots
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _talks
