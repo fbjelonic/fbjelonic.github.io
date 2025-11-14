@@ -22,7 +22,7 @@ main:
   #   url: /teaching/    
     
   - title: "Robots"
-    url: /portfolio/
+    url: /robots/
 
   - title: "Projects"
     url: /projects/
@@ -37,4 +37,4 @@ main:
   #   url: /cv-json/
     
   - title: "Places"
-    url: /markdown/
+    url: /places/
