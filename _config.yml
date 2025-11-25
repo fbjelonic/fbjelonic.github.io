@@ -31,7 +31,7 @@ author:
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich"
   uri              : "https://rsl.ethz.ch/" # URL
-  email            : "none@example.org" 
+  email            : "fbjelonic@ethz.ch" # Email address TODO change later to the developer email
 
   # Academic websites
   academia         : # URL
@@ -88,6 +88,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  datasets:
+    title: 'Datasets'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
