@@ -1,6 +1,6 @@
 ---
 title: "Tytan"
-excerpt: "Short description of Tytan<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of Tytan<br/><img src='/images/tytan.png'>"
 collection: robots
 ---
 

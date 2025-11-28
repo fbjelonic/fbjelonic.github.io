@@ -1,6 +1,6 @@
 ---
 title: "ANYmal"
-excerpt: "Short description of ANYmal<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of ANYmal<br/><img src='/images/anymal.jpg'>"
 collection: robots
 ---
 

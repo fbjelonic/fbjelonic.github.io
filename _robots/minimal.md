@@ -1,6 +1,6 @@
 ---
 title: "Minimal"
-excerpt: "Short description of Minimal<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of Minimal<br/><img src='/images/minimal.jpeg'>"
 collection: robots
 ---
 

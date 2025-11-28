@@ -27,7 +27,7 @@ author:
   avatar           : "me.jpg"
   name             : "Filip Bjelonic"
   pronouns         : # example: "she/her"  
-  bio              : "Just another engineer, searching for the ultimate solution to bugs and problems."
+  bio              : "Just another engineer, relentlessly searching for the ultimate solution to bugs — and occasionally creating a few new ones for balance."
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich"
   uri              : "https://rsl.ethz.ch/" # URL
@@ -233,6 +233,9 @@ collections:
   places:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -274,6 +277,14 @@ defaults:
   - scope:
       path: ""
       type: places
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true

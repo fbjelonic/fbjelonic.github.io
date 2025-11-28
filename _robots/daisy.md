@@ -1,6 +1,6 @@
 ---
 title: "Daisy"
-excerpt: "Short description of Daisy<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of Daisy<br/><img src='/images/daisy.jpeg'>"
 collection: robots
 ---
 
