@@ -1,6 +1,9 @@
-/docs
-.jekyll-cache
-/test
-LICENSE
-CHANGELOG.md
+# Jekyll-specific
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
 
+# User-specific (from your file)
+/docs
+/test
