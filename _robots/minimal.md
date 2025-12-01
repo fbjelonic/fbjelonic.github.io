@@ -8,6 +8,8 @@ I used Minimal as a fast, lightweight platform to validate the core components o
 
 On the real robot, I deployed the learned controllers to test robustness under challenging conditions relative to its scale: steep obstacles, uneven surfaces, and full stair climbs that match nearly the robot’s own height. Through repeated hardware experiments, I refined both the controller and the simulation fidelity, ultimately demonstrating that even a small, low-cost platform can achieve reliable stair ascent and agile terrain traversal when powered by accurate actuator models and a well-designed sim-to-real pipeline.
 
+Beyond the research contributions, I also acted as Minimal’s “parent,” taking responsibility for its day-to-day reliability as a hardware platform. This included debugging actuator electronics, fixing mechanical failures in the 3D-printed structure, tuning low-level controllers, and ensuring that experiments could run consistently without unexpected hardware issues. By keeping the robot stable, calibrated, and operational, I enabled fast iteration cycles for sim-to-real experiments and made Minimal a dependable small-scale testbed for PACE.
+
 <div style="max-width: 100%; margin: 1.5em 0;">
   <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
     <source src="/images/minimal_stairs_web.mp4" type="video/mp4">

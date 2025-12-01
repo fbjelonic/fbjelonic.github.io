@@ -65,12 +65,12 @@ It provides a concise but complete snapshot of who I am professionally.
 
 ---
 
-### 🌍 [Favorite places](/places/)
+<!-- ### 🌍 [Favorite places](/places/)
 A more personal section — a curated collection of places that inspire me, help me disconnect, or simply make life better.
 
 This section will grow slowly and organically over time.
 
----
+--- -->
 
 ## 🚧 Work in progress
 

@@ -8,4 +8,4 @@ Magnecko is a quadrupedal climbing robot developed by students at ETH Zurich tha
 
 In my role, I supervised the project and guided the students on bridging the sim-to-real gap: I advised them on building accurate actuator models; on learning control design; and on how to safely transfer simulated climbing behaviors to the physical robot hardware. I helped structure validation experiments.
 
-Check-out the full robot [here](https://arxiv.org/pdf/2504.13672) and the [porject page](https://magnecko.ethz.ch/).
+Check-out the full robot [here](https://arxiv.org/pdf/2504.13672) and the [project page](https://magnecko.ethz.ch/).
