@@ -11,5 +11,7 @@ paperurl: 'https://arxiv.org/pdf/2502.10983'
 bibtexurl: '/files/bibtex_quiet_walk.bib'
 citation: 'R. Watanabe, T. Miki, F. Shi, Y. Kadokawa, F. Bjelonic, K. Kawaharazuka, A. Cramariuc, and M. Hutter, “Learning Quiet Walking for a Small Home Robot,” in <i>Proc. IEEE Int. Conf. on Robotics and Automation (ICRA)</i>, 2025.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
 
+This work addresses the problem of excessive foot-step noise when quadruped robots walk in home environments — a major obstacle for their acceptance as household companions. The paper proposes a sim-to-real reinforcement learning framework that minimizes foot contact velocity (a major contributor to footstep sound), by allowing the policy to dynamically adjust PD gains per joint, using foot-contact sensors to modulate damping/stiffening, and applying curriculum learning to gradually penalize high-contact velocities. 
+
+Experiments with a small home robot show that the learned policy produces significantly quieter walking compared both to a standard RL baseline and to carefully hand-tuned commercial controllers. The study demonstrates the feasibility of noise-aware locomotion and highlights the trade-off between noise reduction and robustness, paving the way for more user-friendly robots operating in domestic environments. 

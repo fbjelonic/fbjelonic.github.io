@@ -11,5 +11,4 @@ paperurl: 'http://hdl.handle.net/20.500.11850/783505.3'
 bibtexurl: '/files/bibtex_pace_data.bib'
 citation: 'F. Bjelonic, and M. Hutter, “PACE Dataset for Sim-to-Real Transfer in Legged Robots,” ETH Zurich Research Collection, 2025. Available: https://www.research-collection.ethz.ch/items/2277fcdc-ee56-41c7-b856-c3f3cb570ad1'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
-
+This dataset accompanies the PACE framework for actuator model identification in legged robots. It contains raw and processed measurements from actuator drives, single-joint and single-leg experiments, and full-robot locomotion tests across multiple platforms. Python scripts for data fitting and plot generation are included, together with structured NumPy arrays. The dataset supports reproducibility of the experimental results presented in the paper and enables further research on joint dynamics identification and controller transfer.

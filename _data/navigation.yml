@@ -36,5 +36,5 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Places"
-    url: /places/
+  # - title: "Places"
+  #   url: /places/
