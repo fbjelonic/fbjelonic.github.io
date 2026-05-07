@@ -12,6 +12,14 @@
   {% capture cta_path %}{{ page.header.cta_url | prepend: base_path }}{% endcapture %}
 {% endif %}
 
+{% if page.header.image_link %}
+  {% if page.header.image_link contains "://" %}
+    {% capture image_link_path %}{{ page.header.image_link }}{% endcapture %}
+  {% else %}
+    {% capture image_link_path %}{{ page.header.image_link | prepend: base_path }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
@@ -24,7 +32,7 @@
   {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
 {% endif %}
 
-<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}{% if image_link_path %} page__hero--linked{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}
   
   min-height: clamp(360px, 72vh, 760px);
@@ -51,6 +59,11 @@
     </div>
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
+  {% endif %}
+  {% if image_link_path %}
+    <a href="{{ image_link_path }}" class="page__hero-link" aria-label="{{ page.header.image_link_label | default: page.header.caption | default: page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+      <span class="screen-reader-text">{{ page.header.image_link_label | default: page.header.caption | default: page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}</span>
+    </a>
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
