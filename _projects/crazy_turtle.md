@@ -1,12 +1,9 @@
 ---
 title: "Crazy Turtle"
 collection: projects
-excerpt: "Advanced feedback control experiments for ROS turtlesim with dynamic wall avoidance."
 date: 2019-08-15
 author_profile: false
-# optional:
-excerpt: "An advanced control framework for ROS turtlesim implementing non-blocking goal navigation, feedback control, and intelligent wall avoidance using action-server-based communication.<br/><img src='/images/crazy_turtle_teaser.png'>"
-# layout: single   # or another layout your theme provides
+excerpt: "An advanced control framework for ROS turtlesim implementing non-blocking goal navigation, feedback control, and intelligent wall avoidance using action-server-based communication.<br/><img src='/images/crazy_turtle_teaser.webp' alt='Crazy Turtle ROS turtlesim teaser' loading='lazy'>"
 ---
 
 # Crazy Turtle  
@@ -14,7 +11,7 @@ excerpt: "An advanced control framework for ROS turtlesim implementing non-block
 
 ---
 
-<img src='/images/crazy_turtle_teaser.png'>
+<img src='/images/crazy_turtle_teaser.webp' alt='ROS turtlesim Crazy Turtle trajectory teaser' loading='lazy'>
 
 ## Abstract
 
@@ -54,14 +51,14 @@ Thus, the *Crazy Turtle* was born.
 
 Two different feedback control strategies were implemented and compared. Both aimed to steer the turtle toward a specified target while avoiding collisions with the simulation boundaries.
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/lets_go_turtle_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     Wall avoidance using control barrier functions.
   </figcaption>
-</div>
+</figure>
 
 ### Core Concepts
 
@@ -71,7 +68,7 @@ Two different feedback control strategies were implemented and compared. Both ai
 
 The wall avoidance is implemented through a penalty-based approach. The closer the turtle approaches the boundary, the higher the cost applied to the control signal.
 
-<img src='/images/wallbump.png'>
+<img src='/images/wallbump.png' alt='Wall avoidance cost visualization for the turtlesim controller' loading='lazy'>
 
 To maintain numerical stability in simulation, the cost function is clipped:
 
@@ -99,7 +96,7 @@ Two additional ROS nodes were introduced:
 - Publishes feedback (current position, remaining distance)
 - Allows real-time goal modification without blocking
 
-<img src='/images/rqt_graph_crazy_turtle.jpg'>
+<img src='/images/rqt_graph_crazy_turtle.jpg' alt='ROS rqt graph for the Crazy Turtle action and service nodes' loading='lazy'>
 
 
 ### Why use an Action Server?
@@ -131,14 +128,14 @@ This structure closely follows patterns seen in professional robotic navigation 
 
 Final demonstration showing dynamic goal switching and continuous wall-avoidance behavior:
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/turtle_full_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     Running both controllers in the turtle simulator.
   </figcaption>
-</div>
+</figure>
 
 ---
 

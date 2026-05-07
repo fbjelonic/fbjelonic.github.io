@@ -1,12 +1,9 @@
 ---
 title: "2WD Rosduino"
 collection: projects
-excerpt: "ROS-controlled Arduino robot with manual and autonomous driving modes."
 date: 2020-05-30
 author_profile: false
-# optional:
-excerpt: "A differential-drive Arduino robot controlled via ROS and an Xbox controller, featuring both teleoperation and autonomous obstacle avoidance. This project introduced the foundations of robotic control architectures and real-time communication pipelines.<br/><img src='/images/rosduino_full_teaser.jpg'>"
-# layout: single   # or another layout your theme provides
+excerpt: "A differential-drive Arduino robot controlled via ROS and an Xbox controller, featuring both teleoperation and autonomous obstacle avoidance. This project introduced the foundations of robotic control architectures and real-time communication pipelines.<br/><img src='/images/rosduino_full_teaser.webp' alt='2WD ROSduino robot teaser' loading='lazy'>"
 ---
 
 # 2WD ROSduino  
@@ -14,7 +11,7 @@ excerpt: "A differential-drive Arduino robot controlled via ROS and an Xbox cont
 
 ---
 
-<img src='/images/rosduino_full_teaser.jpg'>
+<img src='/images/rosduino_full_teaser.webp' alt='2WD ROSduino robot with Arduino and Raspberry Pi electronics' loading='lazy'>
 
 ## Abstract
 
@@ -34,7 +31,7 @@ The final result and real-world operation can be seen in the [video section](#vi
 
 During the winter semester 2019/2020, I participated in — and won — a robotics challenge at **TU Darmstadt**. The competition involved autonomous pick-and-place of tennis balls using a TurtleBot3 equipped with a 5-DOF gripper arm.
 
-<img src='/images/robotic_challenge_winner.jpg'>
+<img src='/images/robotic_challenge_winner.webp' alt='Robotics challenge award photo with the TurtleBot platform' loading='lazy'>
 
 A recording of the final run can be found here:  
 🎥 [https://youtu.be/cxs0oeeQU-w](https://youtu.be/cxs0oeeQU-w)
@@ -58,7 +55,7 @@ These insights eventually motivated the transition to the more ambitious [Autono
 
 The base kit consisted of a standard 2WD chassis, dual DC motors, and a basic Arduino controller.
 
-<img src='/images/arduino_assembly.png'>
+<img src='/images/arduino_assembly.webp' alt='Arduino-based robot assembly with motor driver and wiring' loading='lazy'>
 
 The full system architecture with my custom upgrades included:
 - Arduino Uno for low-level motor control  
@@ -114,14 +111,14 @@ This mode served as an introduction to sensor-based feedback control and robotic
 
 First functional test with Xbox remote control and ROS-based communication:
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/arduinoBot_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     Remote Controlled Test of the 2WD Rosduino
   </figcaption>
-</div>
+</figure>
 
 ---
 

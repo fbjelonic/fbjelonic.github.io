@@ -2,6 +2,8 @@
 title: "Favorite Places in the World"
 permalink: /places/
 layout: archive
+published: false
+sitemap: false
 ---
 
 <div class="entries-layout">

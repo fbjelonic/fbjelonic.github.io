@@ -1,12 +1,9 @@
 ---
 title: "Autonomous Driller"
 collection: projects
-excerpt: "Autonomous rover built from a drill motor with custom 3D-printed chassis and ROS-based navigation."
 date: 2021-07-10
 author_profile: false
-# optional:
-excerpt: "A high-torque vehicle powered by a repurposed drilling machine motor, combining 3D-printed mechanics with ROS-based perception, SLAM, and navigation. Designed as an experimental platform for exploration and autonomous delivery.<br/><img src='/images/driller_new_teaser.png'>"
-# layout: single   # or another layout your theme provides
+excerpt: "A high-torque vehicle powered by a repurposed drilling machine motor, combining 3D-printed mechanics with ROS-based perception, SLAM, and navigation. Designed as an experimental platform for exploration and autonomous delivery.<br/><img src='/images/driller_new_teaser.webp' alt='Autonomous Driller teaser' loading='lazy'>"
 ---
 
 # The Autonomous Driller  
@@ -14,7 +11,7 @@ excerpt: "A high-torque vehicle powered by a repurposed drilling machine motor, 
 
 ---
 
-<img src='/images/driller_new_teaser.png'>
+<img src='/images/driller_new_teaser.webp' alt='Autonomous Driller rover with its custom 3D-printed chassis' loading='lazy'>
 
 ## Abstract
 
@@ -31,7 +28,7 @@ You can read the full story [below](#what-does-a-car-have-to-do-with-a-driller).
 
 ## Background
 
-After completing my previous project, the [2WD ROSduino](/projects/2wdarduino/), I wanted to take the next step: autonomy.
+After completing my previous project, the [2WD ROSduino](/projects/rosduino/), I wanted to take the next step: autonomy.
 
 I began researching suitable sensors for navigation:
 
@@ -58,7 +55,7 @@ I saw opportunity where others saw scrap.
 
 I opened the casing and discovered an impressive compact engineering system: a small motor paired with a powerful planetary gearbox.
 
-<img src='/images/drill_engine_opened.jpg'>
+<img src='/images/drill_engine_opened.webp' alt='Opened drilling machine motor and gearbox used for the rover drivetrain' loading='lazy'>
 
 The motor was rated at:
 
@@ -72,14 +69,14 @@ The first challenge was control. I purchased a PWM MOSFET motor controller and t
 
 Below: early experiments holding the motor while testing output torque.
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/drill_engine_control_test_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     First motor drive test.
   </figcaption>
-</div>
+</figure>
 
 ---
 
@@ -88,14 +85,14 @@ Below: early experiments holding the motor while testing output torque.
 With a functioning drivetrain, I began designing the vehicle chassis.  
 My first iteration used aluminium sheets scavenged from my father’s workshop — purely as a rapid prototype.
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/alu_sheet_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     First aluminium sheet test.
   </figcaption>
-</div>
+</figure>
 
 While functional, this approach lacked precision and scalability. I transitioned to 3D printing and used **Tinkercad** for fast CAD prototyping. Components were first modeled at real scale:
 
@@ -112,19 +109,19 @@ For the base chassis, I adapted the excellent open-source design
 
 Initial drivetrain test:
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/first_transmission_test_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     First actuated drive-train test.
   </figcaption>
-</div>
+</figure>
 
 
 And the assembled structure including electronics:
 
-<img src='/images/auto_driller_full.jpg'>
+<img src='/images/auto_driller_full.jpg' alt='Assembled Autonomous Driller with electronics mounted on the chassis' loading='lazy'>
 
 ---
 
@@ -150,11 +147,11 @@ The result: instantaneous peak-torque and structural failure.
 
 No injuries, only learning.
 
-<img src='/images/engine_to_chassis.jpg'>
+<img src='/images/engine_to_chassis.webp' alt='Drill motor mounted to the 3D-printed chassis after a drivetrain failure' loading='lazy'>
 
-<img src='/images/car_wheel_destroyed.jpg'>
+<img src='/images/car_wheel_destroyed.webp' alt='Damaged wheel from the high-torque drivetrain test' loading='lazy'>
 
-<img src='/images/wheel_destroyed.jpg'>
+<img src='/images/wheel_destroyed.webp' alt='Destroyed 3D-printed drivetrain component after direct battery connection' loading='lazy'>
 
 
 ---
@@ -164,14 +161,14 @@ No injuries, only learning.
 The first successful remote-controlled test run of the Autonomous Driller. I capped the output power at 10%.
 
 
-<div style="max-width: 100%; margin: 1.5em 0;">
-  <video autoplay loop muted playsinline style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<figure class="site-media">
+  <video autoplay loop muted playsinline preload="metadata">
     <source src="/images/first_test_web.mp4" type="video/mp4">
   </video>
   <figcaption style="text-align: center; font-size: 0.8em; color: #666; margin-top: 0.6em;">
     First full system test.
   </figcaption>
-</div>
+</figure>
 
 ---
 

@@ -2,8 +2,9 @@
 layout: splash
 permalink: /
 author_profile: false
+description: "Robotics researcher at ETH Zurich working on agile legged robots, sim-to-real transfer, learning-based control, and real-world robotic systems."
 header:
-  overlay_image: tytan.png
+  overlay_image: tytan_padded.webp
   title: ""
   overlay_filter: 0.5
   caption: "Photo of Tytan"
@@ -72,10 +73,9 @@ This section will grow slowly and organically over time.
 
 --- -->
 
-## 🚧 Work in progress
+## Recently updated
 
-This website is intentionally evolving.  
-I refine it whenever time allows — adding new research, improving documentation quality, and expanding sections with deeper insights, visuals, and interactive elements.
+I refine this site as my research and projects evolve — adding new publications, experiment notes, robot writeups, and deeper technical context where it helps.
 
 It is less a static portfolio and more a long-term archive of thinking, building, and exploration.
 

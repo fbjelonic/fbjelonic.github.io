@@ -22,7 +22,8 @@
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
+          alt="{{ title | strip_html | escape }}"
+          loading="lazy">
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">

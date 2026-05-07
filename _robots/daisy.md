@@ -1,6 +1,6 @@
 ---
 title: "Daisy"
-excerpt: "Daisy builds on my torque-dense Tytan quadruped by mounting on top a dual-arm setup derived from the DynaArm from Duatic. With this hybrid design — a strong, agile four-legged base and two dexterous arms — Daisy serves as a versatile mobile manipulator capable of locomotion + manipulation in complex terrain and environments.<br/><img src='/images/daisy.jpeg'>"
+excerpt: "Daisy builds on my torque-dense Tytan quadruped by mounting on top a dual-arm setup derived from the DynaArm from Duatic. With this hybrid design — a strong, agile four-legged base and two dexterous arms — Daisy serves as a versatile mobile manipulator capable of locomotion + manipulation in complex terrain and environments.<br/><img src='/images/daisy.webp' alt='Daisy mobile manipulator robot' loading='lazy'>"
 collection: robots
 ---
 

@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+description: "CV of Filip Bjelonic, robotics PhD researcher at ETH Zurich working on legged locomotion, sim-to-real transfer, and learning-based control."
 redirect_from:
   - /resume
 ---
@@ -82,7 +83,8 @@ Publications
 </ul>
 
 
-<!-- Talks
+{% comment %}
+Talks
 ======
 <ul>
 {% for post in site.talks reversed %}
@@ -97,7 +99,8 @@ Teaching
 {% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
-</ul> -->
+</ul>
+{% endcomment %}
 
 
 Awards & Scholarships

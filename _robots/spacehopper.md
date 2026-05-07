@@ -1,6 +1,6 @@
 ---
 title: "Spacehopper"
-excerpt: "SpaceHopper is a small-scale three-legged hopping robot developed by students at ETH Zurich for future exploration of low-gravity environments like asteroids or small moons. It is designed to perform jumping locomotion with extended flight phases, using its legs for mid-air body reorientation.<br/><img src='/images/spacehopper.png'>"
+excerpt: "SpaceHopper is a small-scale three-legged hopping robot developed by students at ETH Zurich for future exploration of low-gravity environments like asteroids or small moons. It is designed to perform jumping locomotion with extended flight phases, using its legs for mid-air body reorientation.<br/><img src='/images/spacehopper.png' alt='SpaceHopper three-legged hopping robot' loading='lazy'>"
 collection: robots
 ---
 

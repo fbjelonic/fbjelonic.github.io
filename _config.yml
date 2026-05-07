@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Filip Bjelonic"
 title_separator          : "-"
 name                     : &name "Filip Bjelonic"
-description              : &description "My personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Robotics researcher at ETH Zurich working on legged locomotion, sim-to-real transfer, and learning-based control."
 url                      : https://filipbjelonic.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -31,7 +31,7 @@ author:
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich"
   uri              : "https://rsl.ethz.ch/" # URL
-  email            : "fbjelonic@ethz.ch" # Email address TODO change later to the developer email
+  email            : "fbjelonic@ethz.ch"
 
   # Academic websites
   academia         : # URL
@@ -92,7 +92,7 @@ publication_category:
     title: 'Datasets'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "tytan.webp" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -143,19 +143,22 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "tytan.webp" # Social media default site image
+og_description           : *description # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : "Filip Bjelonic"
   links: # An array of links to social media profiles
+    - "https://github.com/fbjelonic"
+    - "https://www.linkedin.com/in/filip-bjelonic-0b39b723a"
+    - "https://scholar.google.com/citations?user=DzqjM4wAAAAJ&hl=en"
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -176,20 +179,62 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - images/tytan.png
+  - images/daisy.jpeg
+  - images/minimal.jpeg
+  - images/driller_new_teaser.png
+  - images/drill_engine_opened.jpg
+  - images/engine_to_chassis.jpg
+  - images/car_wheel_destroyed.jpg
+  - images/wheel_destroyed.jpg
+  - images/rosduino_full_teaser.jpg
+  - images/robotic_challenge_winner.jpg
+  - images/arduino_assembly.png
+  - images/cnake_teaser.png
+  - images/crazy_turtle_teaser.png
+  - images/tytan_pace_web.webm
+  - images/rosduino_full.jpg
+  - images/auto_driller_full_teaser.jpg
+  - images/quarter_car_3d_printed.jpg
+  - images/helgoland.jpg
+  - images/heidelberg.jpg
+  - images/hongkong.jpg
+  - images/zuerich2.jpg
+  - images/lofoten.jpg
+  - images/lisbon.jpg
+  - images/zuerich.jpg
+  - images/first_cad_car.png
   - CHANGELOG
+  - CONTRIBUTING.md
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
+  - LICENSE-THEME.md
   - local
   - log
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - README.md
   - tmp
   - vendor
 keep_files:
@@ -222,7 +267,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
@@ -231,7 +276,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   places:
-    output: true
+    output: false
     permalink: /:collection/:path/
   projects:
     output: true

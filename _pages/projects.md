@@ -2,6 +2,7 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
+description: "Selected robotics and software projects by Filip Bjelonic, from student-built platforms to exploratory control and autonomy experiments."
 ---
 
 Here you can find a selection of projects I worked on as a student during my Bachelor and Master.

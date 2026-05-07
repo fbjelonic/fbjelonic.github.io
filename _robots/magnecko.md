@@ -1,6 +1,6 @@
 ---
 title: "Magnecko"
-excerpt: "Magnecko is a student-built quadrupedal climbing robot that uses electromagnetic feet to crawl on walls, overhangs, and ceilings. I supervised the team on bridging the sim-to-real gap for reliable climbing behaviors.<br/><img src='/images/magnecko.webp'>"
+excerpt: "Magnecko is a student-built quadrupedal climbing robot that uses electromagnetic feet to crawl on walls, overhangs, and ceilings. I supervised the team on bridging the sim-to-real gap for reliable climbing behaviors.<br/><img src='/images/magnecko.webp' alt='Magnecko climbing quadruped robot' loading='lazy'>"
 collection: robots
 ---
 
