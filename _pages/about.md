@@ -4,9 +4,9 @@ permalink: /
 author_profile: false
 description: "Robotics researcher at ETH Zurich working on agile legged robots, sim-to-real transfer, learning-based control, and real-world robotic systems."
 header:
-  overlay_image: tytan_padded.webp
+  overlay_image: tytan.webp
   title: ""
-  overlay_filter: 0.5
+  overlay_filter: 0.0
   caption: "Photo of Tytan"
 ---
 
